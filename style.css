@@ -1,0 +1,168 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ body {
+     background-color: rgb(241, 241, 241);
+ }
+ header {
+     background-color: black;
+     width: 100%;
+     height: 90px;
+     top: 0;
+     border-bottom: solid darkgray 3px;
+     position: relative;
+}
+ 
+ .frame {
+     max-width: 800px;
+     background-color: black;
+     height: 100%;
+     margin: 0 auto;
+     padding: 0 10px;
+     position: relative;
+ }
+ .logo img {
+     height: 80px;
+     margin: 7px;
+ }
+ .logo {
+     width: 20%;
+     float: left;
+     height:100%;
+ }
+ .menu1 {
+    height: 100%;
+    width:80%;
+    float: right;
+    padding: 35px 25px 25px 5px;
+    }
+.menu1 ul {
+margin: 0 auto;
+}
+.menu1 li {
+    display:block;
+    float: left;
+    padding: 15px;
+}
+.menu1 li:hover, .menu1 li:active {
+    border-bottom: solid 2px blue;  
+    background-color: rgb(11,11,11);
+}
+.menu1 a {
+    display: block;
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+section {
+    display: block;
+} 
+.cont {
+    width: 100%;
+}
+.prva img {
+    width:100%;
+    }
+    .row {
+        border-top, bottom: solid darkgray 3px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .column-50 {
+        width:47%;
+        padding:25px;
+    }
+    .left {
+        float:left;
+        
+    }
+    .right {
+        float:right;
+    }
+    .right img {
+        width:95%;
+        border: 2px gray solid;
+        margin:5px;
+        
+    }
+    h2 {
+        text-decoration: none;
+        text-align: center;
+        color: rgb(154, 154, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 25px;
+        margin-top:35px;
+        
+    }
+    .cont h3, h4, p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: rgb(154, 154, 255);
+    }
+    .column-50 p{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(99,99,99);
+    }
+    .container {
+        grid-gap: 5px;
+        float: left;
+    }
+    .container img {
+        max-width:100px;
+        max-height: 140px;
+        border: 2px rgb(175, 182, 211) solid;
+        border-radius: 5px;
+        background-color: rgb(222,222,222);
+    }
+ #contact-map {
+    width: 100%;
+    height: 300px;
+    
+}
+
+.mapa {
+    margin: 0 auto;
+    border: 5px lightgray;
+}
+/* Footer */
+
+footer {
+    height: 100px;
+    line-height: 124px;
+    background-color: black;
+    bottom:0;
+}
+.foot span{
+text-decoration: none;
+color: darkgray;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#cr {
+    text-decoration: none;
+    margin-right: 8px;
+    color:rgb(44,44,44);
+}
+#des {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(66,66,66);
+}
+.foot a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px;
+}
+.foot a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 599px) {
+    
+    
+  }
